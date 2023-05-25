@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .navbar {
+      background-color: #f8f9fa;
+      padding: 10px 0;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .jumbotron {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 50px 0;
+      margin-bottom: 0;
+    }
+
+    .product-card {
+      margin-bottom: 30px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 20px;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .product-card .product-name {
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .product-card .product-price {
+      color: #888;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body><nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">E-commerce</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Account</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="jumbotron">
+    <div class="container">
+      <h1>Welcome to our E-commerce Store!</h1>
+      <p>Discover amazing products at great prices.</p>
+      <a class="btn btn-primary" href="#">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://cdn.shopify.com/s/files/1/0661/7423/products/wallet-006-with-packaging.jpg?v=1655541042&width=900" alt="Product 1">
+          <h3 class="product-name">Wallet</h3>
+          <p class="product-price">$19.99</p>
+          <a class="btn btn-secondary" href="#">Add to Cart</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://cdn.shopify.com/s/files/1/0661/7423/products/concept-belt-002-left-fold-view.jpg?v=1681452776&width=900" alt="Product 1">
+          <h3 class="product-name">Premium belt</h3>
+          <p class="product-price">$19.99</p>
+          <a class="btn btn-secondary" href="#">Add to Cart</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://cdn.shopify.com/s/files/1/0661/7423/products/MG_6033.jpg?v=1615367486&width=900" alt="Product 1">
+          <h3 class="product-name">Spex</h3>
+          <p class="product-price">$19.90</p>
+          <a class="btn btn-secondary" href="#">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+</div>
