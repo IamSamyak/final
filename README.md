@@ -1,3 +1,3 @@
 # final
 
-https://wakefitdev.gumlet.io/img/npl_modified_images/darcy/sofa_WLCHRDRCFVBL/sofa_WLCHRDRCFVBL_1.jpg?w=732
+![image](https://github.com/IamSamyak/final/assets/131391298/960593ef-236c-4c0a-98bc-062a7161041b)
